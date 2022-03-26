@@ -35,8 +35,6 @@ html, body {
 
 .site__slider {
     width: 968px;
-    
-
 }
 
 .menu__mark {
@@ -179,48 +177,59 @@ display: flex;
 flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
-.Logo__2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.Cards{
+.Cards_img{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     
+    
 }
 .Image_1{
-    width: 256px;
-    height: 256px;
+    width: 320px;
+    height: 320px;
 }
-.Card_1 {
-    margin-right: 250px;
+.Card_text{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
-.Card_2 {
-    margin-right: 250px;
+.Logo__card{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
-.Card_3 {
+.site_logo{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px; 
 }
-.Logo__1{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.Cards_top{
+display: flex;
+flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
 }
-.Logo__2{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+.Cards_bottom {
+display: flex;
+flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.Cards_imgs{
+    width: 100px;
+    height: 100px;
 }
